@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM mjgargani/puppeteer:trybe1.0
 WORKDIR /tests
 COPY package.json .
 RUN npm install
